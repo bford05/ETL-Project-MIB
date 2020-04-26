@@ -1,4 +1,4 @@
-# NFL Play Statistics Dataset
+# ETL Project: NFL Play Statistics Dataset
 
 This repository represents an extract, transform, and load (ETL) example using NFL play statistics data. The purpose is to transform the data after extracting from a source and then loading it to a database where it can be consumed for analysis. 
 
