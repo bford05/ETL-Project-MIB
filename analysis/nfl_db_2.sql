@@ -82,5 +82,5 @@ pass_attempt int NOT NULL,
 pass_completion int NOT NULL,
 pass_touchdown int NOT NULL,
 pass_interception int NOT NULL,
+CONSTRAINT pk_passer PRIMARY KEY (player_id)
 );
-
