@@ -37,30 +37,22 @@ create table draft (
 	country character varying (30) NOT NULL
 );
 
-create table rusher (
-rushId int NOT NULL,
-teamId int NOT NULL,
-playerId int NOT NULL,
-rushPosition varchar(225) NOT NULL,
-rushType varchar(225) NOT NULL,
-rushYards decimal NOT NULL,
-rushTd int NOT NULL,
-CONSTRAINT pk_rusher PRIMARY KEY (player_id)
+create table rusher(
+rush_id int,
+team_id int,
+player_id int,
+rush_position varchar(10),
+rush_yards dec,
+rush_td int
 );
 
 
-create table receiver( 
-receiverId int NOT NULL,
-team_id int NOT NULL,
-player_id int NOT NULL,
-recPosition varchar (225) NOT NULL,
-recYards int NOT NULL,
-recYac decimal NOT NULL,
-rec_first_down decimal NOT NULL,
-rec_fumble decimal NOT NULL,
-rec_pass_def dec NOT NULL,
-rec_pass_Int decimal NOT NULL,
-CONSTRAINT pk_rusher PRIMARY KEY (player_id)
+create table receiver(
+receiver_id int,
+team_id int,
+player_id int,
+rec_position varchar(10),
+rec_yards dec
 );
 
 Create table combine (
@@ -74,4 +66,5 @@ CONSTRAINT pk_combine PRIMARY KEY (player_id)
 create table passer (
 
 )
+
 
