@@ -35,6 +35,8 @@ Kaggle was the primary source used to extract the NFL Play statistics Dataset. W
 * Upload pandas dataframes to sql database
 * Query database to validate dataframes have been loaded
 * Merge rusher and receiver data with player table
+* Merge passer and combine data with player table
+* Create unique player table and merged with data from draft table
 
 
 
